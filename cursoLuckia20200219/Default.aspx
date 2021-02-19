@@ -58,7 +58,7 @@
                 <ItemTemplate>
                     <asp:TextBox ID="txtPassword" runat="server" Text='<%#Eval ("Password")%>'> </asp:TextBox></ItemTemplate></asp:TemplateField><asp:TemplateField HeaderText="Edit" ShowHeader="false">
                 <EditItemTemplate>
-                    <asp:LinkButton ID="lnkbtnUpdate" runat="server" CausesValidation="true" Text="Update" CommandName="Update"></asp:LinkButton><asp:LinkButton ID="lnkbtnCancel" runat="server" CausesValidation="false" Text="Cancel" CommandName="Cancel"></asp:LinkButton></EditItemTemplate><ItemTemplate>
+                    <asp:LinkButton ID="lnkbtnUpdate" runat="server" CausesValidation="true" Text="Update" CommandName="Update"></asp:LinkButton></EditItemTemplate><ItemTemplate>
                     <asp:LinkButton ID="btnEdit" runat="server" CausesValidation="false" CommandName="Edit" Text="Edit"></asp:LinkButton></ItemTemplate></asp:TemplateField><asp:CommandField HeaderText="Delete" ShowDeleteButton="true" ShowHeader="true" />
             <asp:CommandField HeaderText="Select" ShowSelectButton="true" ShowHeader="true" />
         </Columns>
