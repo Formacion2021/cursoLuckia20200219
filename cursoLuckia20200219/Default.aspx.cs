@@ -22,7 +22,7 @@ public partial class _Default : Page
 
     protected void Button1_Click(object sender, EventArgs e)
     {
-        SqlDataAdapter adp = new SqlDataAdapter("select top 20 [Nombre],[Apellido],Password from [AdventureWorks2017].EjercicioWebForms", ConfigurationManager.AppSettings["conString"]);
+        SqlDataAdapter adp = new SqlDataAdapter("select top 20 [Nombre],[Apellido],Password from [AdventureWorks2017]..EjercicioWebForms", ConfigurationManager.AppSettings["conString"]);
         DataSet ds = new DataSet();
         adp.Fill(ds);
         GridView1.DataSource = ds;
