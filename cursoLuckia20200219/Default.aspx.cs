@@ -101,8 +101,7 @@ public partial class _Default : Page
     }
 
     protected void GridView2_RowDeleting(object sender, GridViewDeleteEventArgs e)
-    {
-        SqlDataAdapter da;
+    {       
         SqlConnection con;
         DataSet ds = new DataSet();
         SqlCommand cmd = new SqlCommand();
@@ -150,10 +149,6 @@ public partial class _Default : Page
         BindData();
         con.Close();
     }
-
-
-
-  
 
     protected void btnReset_Click1(object sender, EventArgs e)
     {
