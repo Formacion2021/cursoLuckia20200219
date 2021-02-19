@@ -63,16 +63,8 @@
             <asp:CommandField HeaderText="Select" ShowSelectButton="true" ShowHeader="true" />
         </Columns>
     </asp:GridView>
-    <table>
-        <tr>
-            <td>
-                <asp:Label ID="lblNombre" runat="server" Text="Nombre"></asp:Label><asp:TextBox ID="txtName" runat="server"></asp:TextBox></td><td>
-                <asp:Label ID="lblApellido" runat="server" Text="Apellido"></asp:Label><asp:TextBox ID="txtClassName" runat="server"></asp:TextBox></td><td>
-                <asp:Label ID="lblPassword" runat="server" Text="Password"></asp:Label><asp:TextBox ID="txtRollNo" runat="server"></asp:TextBox></td></tr><tr>
-            <td>
+   
                 
                 <asp:Button ID="Reset" runat="server" Text="Refresh" OnClick="Reset_Click1" />
-            </td>
-        </tr>
-    </table>
+           
 </asp:Content>
