@@ -123,6 +123,12 @@ public partial class _Default : Page
         BindData();
     }
 
+    protected void GridView2_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
+    {
+        GridView2.EditIndex = -1;
+        BindData();
+    }
+
     protected void GridView2_RowUpdating(object sender, GridViewUpdateEventArgs e)
     {
 
@@ -144,6 +150,8 @@ public partial class _Default : Page
         BindData();
         con.Close();
     }
+
+
 
   
 
