@@ -3,6 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <asp:Button ID="Button1" runat="server" CssClass="btn btn-primary" Text="Pulsame para ver los datos de la BD" OnClick="Button1_Click" />
+    <asp:Button ID="Button4" runat="server" CssClass="btn btn-primary" Text="Pulsame para ocultar los datos de la BD" OnClick="Button4_Click" />
     <asp:GridView ID="GridView1" CssClass="table table-dark" runat="server"></asp:GridView>
 
     <br />

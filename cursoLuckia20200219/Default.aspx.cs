@@ -145,4 +145,10 @@ public partial class _Default : Page
     {
         BindData();
     }
+
+    protected void Button4_Click(object sender, EventArgs e)
+    {
+        GridView1.DataSource = new DataTable();
+        GridView1.DataBind();
+    }
 }
